@@ -1,0 +1,12 @@
+t=0:0.01:1;
+f=1;
+x=sin(2*pi*f*t);
+x1=cos(2*pi*f*t);
+sub plot(3,1,1);
+plot(x);
+title ('graph for sine wave');
+sub plot(3,1,2);
+plot(x1);
+title('graph for cosine wave');
+sub plot(3,1,3);
+plot(t,x,t,x1);
